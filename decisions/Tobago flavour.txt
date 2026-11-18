@@ -1,0 +1,274 @@
+political_decisions = {
+	get_trinidad = {
+		potential = {
+			tag = TOB
+			NOT = { has_country_flag = get_trinidad }
+
+		}
+		allow = {
+			war = no
+			relation = { who = ENG value = 50 }
+	
+		}
+		
+		effect = {
+			set_country_flag = get_trinidad
+			prestige = 15
+			2237 = {
+				add_core = TOB
+				secede_province = TOB
+			}
+
+			relation = {
+					who = ENG
+					value = 100
+			}
+		}
+	}
+	tob_lesser_antilles = {
+		potential = {
+			tag = TOB
+			NOT = { has_country_flag = tob_lesser_antilles }
+			has_country_flag = get_trinidad 
+
+		}
+		allow = {
+			war = no
+			relation = { who = ENG value = 150 }
+			OR = {
+				is_secondary_power = yes
+				prestige = 100
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag =  tob_lesser_antilles
+			prestige = 25
+			2233 = {
+				add_core = TOB
+				secede_province = TOB
+			}
+			2409 = {
+				add_core = TOB
+				secede_province = TOB
+			}
+
+			2229 = {
+				add_core = TOB
+				secede_province = TOB
+			}
+			2231 = {
+				add_core = TOB
+				secede_province = TOB
+			}
+			
+		}
+	}
+	tob_latvia = {
+		potential = {
+			tag = TOB
+			NOT = { has_country_flag = tob_latvia }
+			has_country_flag = get_trinidad 
+
+		}
+		allow = {
+			war = no
+			OR = {
+				prestige = 100
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag =  tob_latvia
+			add_accepted_culture = latvian
+			badboy = 5
+			prestige = 20
+			359 = {
+				add_core = TOB
+			}
+			358 = {
+				add_core = TOB
+			}
+
+			357 = {
+				add_core = TOB
+			}
+			
+		}
+	}
+	tob_coast = {
+		potential = {
+			tag = TOB
+			NOT = { has_country_flag = tob_vnz1 }
+			has_country_flag = get_trinidad 
+
+		}
+		allow = {
+			war = no
+			OR = {
+				prestige = 100
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag =  tob_vnz1
+			badboy = 5
+			prestige = 20
+			2276 = {
+				add_core = TOB
+			}
+			2269 = {
+				add_core = TOB
+			}
+
+			2243 = {
+				add_core = TOB
+			}
+			
+		}
+	}
+	tob_greaterantilles = {
+		potential = {
+			tag = TOB
+			NOT = { has_country_flag = tob_greater_antilles }
+			has_country_flag = tob_lesser_antilles 
+
+		}
+		allow = {
+			war = no
+			OR = {
+				prestige = 100
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag =  tob_greater_antilles
+			badboy = 5
+			prestige = 20
+			2209 = {
+				add_core = TOB
+			}
+			2210 = {
+				add_core = TOB
+			}
+
+			2211 = {
+				add_core = TOB
+			}
+			2212 = {
+				add_core = TOB
+			}
+			44 = {
+				add_core = TOB
+			}
+
+			2213 = {
+				add_core = TOB
+			}
+			2215 = {
+				add_core = TOB
+			}
+			2216 = {
+				add_core = TOB
+			}
+
+			2214 = {
+				add_core = TOB
+			}
+			2222 = {
+				add_core = TOB
+			}
+			
+		}
+	}
+	tob_eng_carib = {
+		potential = {
+			tag = TOB
+			NOT = { has_country_flag = tob_eng_carib }
+			has_country_flag = tob_greater_antilles 
+
+		}
+		allow = {
+			war = no
+			OR = {
+				prestige = 100
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag = tob_eng_carib
+			badboy = 5
+			prestige = 20
+			2232 = {
+				add_core = TOB
+			}
+			2225 = {
+				add_core = TOB
+			}
+
+			2224 = {
+				add_core = TOB
+			}
+			2227 = {
+				add_core = TOB
+			}
+			2226 = {
+				add_core = TOB
+			}
+
+			2217 = {
+				add_core = TOB
+			}
+			2218 = {
+				add_core = TOB
+			}
+			2219 = {
+				add_core = TOB
+			}
+			
+		}
+	}
+	tob_vnz_culture = {
+		potential = {
+			tag = TOB
+			NOT = { has_country_flag = tob_vnz2 }
+			has_country_flag = tob_vnz1
+		}
+		allow = {
+			war = no
+			biologism = 1
+			}
+		
+		effect = {
+			set_country_flag = tob_vnz2
+			prestige = -20
+			add_accepted_culture = north_andean
+			}
+		
+	}
+	tob_carib_culture = {
+		potential = {
+			tag = TOB
+			NOT = { has_country_flag = tob_carib_culture }
+			has_country_flag = tob_eng_carib
+		}
+		allow = {
+			war = no
+			functionalism = 1
+			}
+		effect = {
+			set_country_flag = tob_carib_culture
+			prestige = -20
+			add_accepted_culture = british
+			add_accepted_culture = afro_caribbean
+			}
+			
+		}
+	}
+	
+}		

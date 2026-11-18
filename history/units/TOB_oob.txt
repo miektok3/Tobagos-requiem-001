@@ -1,0 +1,20 @@
+army = {
+	name = "Ejercito del Tobago"
+	
+	leader = {
+		name = "Ralsei Darkner"
+		type = land
+		date="1830.1.1"
+		personality = au_fait
+		background = poet
+		prestige = 0.9
+	}
+
+	location = 2238
+	regiment = {
+		name= "Tobago's Frontline"
+		type = infantry
+		home = 2583
+	}
+}
+
