@@ -1,0 +1,81 @@
+TOB;Tobago;;;;;;;;;;;;;x;;
+TOB_absolute_monarchy;Kingdom of Tobago;;;;;;;;;;;;;x;;
+TOB_democracy;Federation of Tobago;;;;;;;;;;;;;x;;
+TOB_presidential_dictatorship;State of Tobago;;;;;;;;;;;;;x;;
+TOB_ADJ;Tobagist;;;;;;;;;;;;;x;;
+PET;Petoria;;;;;;;;;;;;;x;;
+PET_ADJ;Petorian;;;;;;;;;;;;;x;;
+JLS;Jalisco;;;;;;;;;;;;;x;;
+JLS_ADJ;Jaliscean;;;;;;;;;;;;;x;;
+JLS_absolute_monarchy;Reino de Nueva Galicia;;;;;;;;;;;;;x;;
+JLS_prussian_constitutionalism;Reino de Nueva Galicia;;;;;;;;;;;;;x;;
+JLS_hms_government;Reino de Nueva Galicia;;;;;;;;;;;;;x;;
+PET_absolute_monarchy;Kingdom of the Griffins;;;;;;;;;;;;;x;;
+PET_prussian_constitutionalism;Kingdom of the Griffins;;;;;;;;;;;;;x;;
+PET_hms_government;Kingdom of the Griffins;;;;;;;;;;;;;x;;
+get_trinidad_title;Unification with Trinidad;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+get_trinidad_desc;The island of Trinidad shares a lot of common history wth ourselves and with our increasing global position we might be able to ask for it back. Trinidad and Tobago shall be the same once more!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_lesser_antilles_title;The lesser Antilles;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_lesser_antilles_desc;Now with our core territory obtained we might ask the british once more for even greater administration;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_latvia_title;Couronian legacy;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_latvia_desc;Tobago was historically colonized by a multitude of people but the legacy of the colonization from the Duchy of Courland was the start of the Tobagonian identity. As such we must seek to protect our brothers back in Russia from unjust opression, Courland shall be free once more!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_coast_title;A Tobagonian south american coast?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_coast_desc;given our proximity to the coast of British Guyana and Venezuelan eastern land we might be able to claim sovereignity over these coastal populations;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_greaterantilles_title;The greater Antilles plan;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_greaterantilles_desc;There are voices in tobago that ask us to free the rest of the caribean from European oppression, between these remaining lands there are the Greater antilles of Cuba, Hispanolia, Puerto Rico, and Jamaica. The caribean shall be free!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_eng_carib_title;The English Caribean;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_eng_carib_desc;There are voices in tobago that ask us to free the rest of the caribean from European oppression, between these remaining lands there are the rest of the British Caribean colonies. We should claim them in the name of freeing them.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_vnz_culture_title;The hispanic population question;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_vnz_culture_desc;It is one thing to accept peoples influenced by germanic and baltic roots but another to accept the hispanic populations of Cuba and Venezuela, should we protect the present people in our conquered land?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_carib_culture_title;The Caribbean population question;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+tob_carib_culture_desc;In order to justify our destiny there are voices in our government that ask equal rights for the present population in the ex English Antilles, following through could damage our international reputation.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+prg_entrerios_title;Claim Entre Rios;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_urg_title;Claim La provincia Oriental;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_rgs_title;Claim Rio Grande Do Sul;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_chaco_title;The Greater Chaco;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_brz_title;Quest to South Brazil;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_nam1_title;A Paraguayan Africa?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_nam2_title;The Pacification of the Namibian tribes;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_bye_title;The Restoration of The Grand Duchy of Lithuania;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_sudukr_title;The Southern Ruthenian Mission;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_lat_title;Baltic unity with Latvia;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_est_title;Baltic unity with Estonia;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_bye_cul_title;White Ruthenian rights?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_ukr_cul_title;Greater Ruthenian integration;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_norukr_title;The northern Ruthenian Mission;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_rus_title;Final lands of the Rus;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+Claim_La_Nueva_Galicia_title;La Nueva galicia's claims;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_pacific_title;Jaliscean Durango;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_northwest_title;The Baja Peninsula and Chihuahua;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_cal_title;Restoration of a Hispanic California;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_oregon_title;The Jaliscean destiny;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_alaska_title;The Nookta Territory;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+Claim_back_jalisco_title;Restore the rebelious state;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_entrerios_desc;Argentina, since its independence, has always been a divided nation. We should take advantage of that, take Entre Rios and get sea access for our nation’s growth.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_urg_desc;Uruguay, a fictional nation founded by the British. With Argentina gone, we should restore order in the rebel province before Brazil does.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_rgs_desc;Rio Grande Do Sul is quite close to Uruguay culturally. It wouldn’t hurt if we take a little visit would it?…;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_chaco_desc;The Chaco is one of the most claimed regions of South America. But obviously it all belongs to Paraguay and we shall claim it for ourselves.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_brz_desc;Brazil has always been a thorn on our side. Taking their southern states would only benefit us.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_nam1_desc;Colonies are a symbol of prestige and power, thus we should establish our own. There must be no competition for this unpopulated territory in the south of Africa.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+prg_nam2_desc;We shall complete our mission to the southern African territories before the Europeans try to take it from us.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_bye_desc;Once upon a time lithuana controlled land from the Baltic to the Black sea. Those days are long gone but the Lithuanian spirit isn't, we shall retake our land and in the process retake our place in the sun starting with the territories inhabited by the white Ruthenians. Long live lithuania!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_sudukr_desc;After our succesful invasion of white Ruthenia we move south to retake out southern coast.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_lat_desc;In order to stand against the great powers of europe we must embrace baltic unity with our Latvian brothers to ensure their loyalty in these uncertain times.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_est_desc;One can make the argument that Lithuanians and Latvians are cousins for their close history and origins. But Estonia shares a completely different root, being closer to Finland than anyone else in Europe. And yet the Latvians and Estonians have shared closer ties in the early modern era that persuades some members of our parliament to treat Estonian as a long lost brother instead of a barbarian from the Ural mountains. Should Estonia take the place of Baltic Prussians as the third baltic brother?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_bye_cul_desc;A big part of our heritage from the Grand Duchy of Lithuania lies in territory that was always populated with a distinct type of slavs, some call them White Ruthenians, White Rus, Belarusians, but even though they have been an integral part of the lithuanian state they were always seen as inferior. Maybe it is time to embrace the local inhabitans of our land even if they're slavs.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_ukr_cul_desc;Modernity has forced our hand to keep embracing the rest of Ruthenia. The country has long been dominated by a small minority in the Baltics while most of the population is Ruthenian and Russian, we couls make use of these differences to make them fight against eachother. The Muscovite Rus were always seen as the superior culture, but embracing Ruthenians in our administration might be what they need to see themselves not as a type of Rus but as an independent nationality that flies the Lithuanian banner.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_norukr_desc;We shall continue our expansion until all our land from the Great Duchy of Lithuania is ours once more;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+lit_rus_desc;With this final conquest we can proclaim the restoration of our medieval borders. Long live Lithuania!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+Claim_La_Nueva_Galicia_desc;During the Viceroyalty of New Spain there were 2 distinct kingdoms that ruled over north america. The kingdom of Mexico and The kingdom of New Galicia. We should embrace these colonial borders to lay claim to greater territory. (I know historically they did not control Michoacan and Guanajuato but this isn't realistic, it's just for flavor);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_pacific_desc;We shall keep expanding north to take over land that was explicitly outside of the Kingdom of Mexico's Jurisdiction under Viceroyal rule.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_northwest_desc;Let's claim Chihuahua, Sonora, and The Baja California Peninsula just for the love of the game, ok? ok.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_cal_desc;We believe the American purchase of the Californian and New Mexico's territory was illegitimate so we shall take it back for our hispanic brothers.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_oregon_desc;We believe Jalisco has a divine destiny to controll all the land to the west of the great mountain ranges of north America, as such, the Oregon Territory shall be ours!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+jls_alaska_desc;To conclude our great destiny we shall expand to the northern territories colonized by the British and Russians to fulfill our destiny.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+Claim_back_jalisco_desc;The Jaliscean are delusionals who see themselves as different from the rest of Mexico. They have already played for a bit, now it is time to take them back where they belong.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTDESC33124001;Jalisco declared it's own independence alongside Mexico, but just like Central America, and Yucatan, got integrated into the first Mexican Empire just to then declare another independence. We can not deny that Jaliscans and Mexicans are almost the same, but the landowners of our state have been funding for a National mythology and identity different from the Aztec based Mexico. Should we embrace individualism or should we remain as just more Mexicans?.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC33124002;Jalisco has been in a dictatorship for as long as it has existed with power heavily centralized in Guadalajara and a massive lack of political rights. As such there has been propositions to change the political system, and with our dictator's health begining to decline it might be possible to convince him to abdicate in support for a new system. Between the propositions there are 2 main factions: Establish a constitutional monarchy with an European prince as it's ruler in order to receive protection from Mexican agression, and for the second option, the establishment of a liberal democracy. Though the oligarchy can pull some strings to keep the power within their circle...;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+New_gov_jls_title;A new government for Jalisco;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+New_culture_jls_title;The Jaliscan culture;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+New_gov_jls_desc;The people are mad and the dictator is dying, we should choose a new way of government to ensure future stability (you can also keep the dictatorship if you want, don't worry);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+New_culture_jls_desc;Most people inside Jalisco will tell you they are Mexican first, Jaliscan second, we should embrace a single identity that trully reflects the people of this great state.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,

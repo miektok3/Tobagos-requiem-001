@@ -1,0 +1,310 @@
+political_decisions = {
+	Claim_La_Nueva_Galicia = {
+		potential = {
+			tag = JLS
+			NOT = { has_country_flag = nuevagalicia01 }
+		}
+		allow = {
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = nuevagalicia01
+			prestige = 15
+			badboy = 8
+			2160 = {
+				add_core = JLS
+			}
+			2158 = {
+				add_core = JLS
+			}
+			MEX_2170 = {
+				add_core = JLS
+			}
+
+			relation = {
+					who = MEX
+					value = -100
+			}
+		}
+	}
+	jls_pacific = {
+		potential = {
+			tag = JLS
+			NOT = { has_country_flag = nuevagalicia02 }
+			has_country_flag = nuevagalicia01
+		}
+		allow = {
+			war = no
+			owns = 2170
+			owns = 2160	
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = nuevagalicia02
+			prestige = 15
+			badboy = 4
+			MEX_2151 = {
+				add_core = JLS
+			}
+
+			relation = {
+					who = MEX
+					value = -100
+			}
+		}
+	}
+	jls_northwest = {
+		potential = {
+			tag = JLS
+			NOT = { has_country_flag = jls_nw }
+			has_country_flag = nuevagalicia01
+		}
+		allow = {
+			war = no
+			owns = 2170
+			owns = 2160	
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = jls_nw
+			prestige = 15
+			badboy = 8
+			MEX_2138 = {
+				add_core = JLS
+			}
+			MEX_2142 = {
+				add_core = JLS
+			}
+
+			relation = {
+					who = MEX
+					value = -100
+			}
+		}
+	}
+	jls_cal = {
+		potential = {
+			tag = JLS
+			NOT = { has_country_flag = jls_cal }
+			has_country_flag = nuevagalicia01
+		}
+		allow = {
+			war = no
+			owns = 2138
+			owns = 2142	
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = jls_cal
+			prestige = 15
+			badboy = 10
+			MEX_85 = {
+				add_core = JLS
+			}
+			MEX_94 = {
+				add_core = JLS
+			}
+			MEX_97 = {
+				add_core = JLS
+			}
+			MEX_100 = {
+				add_core = JLS
+			}
+			2662 = {
+				add_core = JLS
+			}
+			2148 = {
+				add_core = JLS
+			}
+			108 = {
+				add_core = JLS
+			}
+			110 = {
+				add_core = JLS
+			}
+
+			relation = {
+					who = MEX
+					value = -100
+			}
+		}
+	}
+	jls_oregon = {
+		potential = {
+			tag = JLS
+			NOT = { has_country_flag = jls_oregon }
+			has_country_flag = jls_cal
+		}
+		allow = {
+			war = no
+			owns = 94
+			owns = 97
+			owns = 104
+			owns = 2662	
+	
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = jls_oregon
+			prestige = 25
+			badboy = 5
+			USA_91 = {
+				add_core = JLS
+			}
+			USA_81 = {
+				add_core = JLS
+			}
+			USA_78 = {
+				add_core = JLS
+			}
+			111 = {
+				add_core = JLS
+			}
+
+			relation = {
+					who = USA
+					value = -100
+			}
+		}
+	}
+	jls_alaska = {
+		potential = {
+			tag = JLS
+			NOT = { has_country_flag = jls_alaska }
+			has_country_flag = jls_oregon
+		}
+		allow = {
+			war = no
+			owns = 91
+			owns = 81
+			owns = 78
+			owns = 111	
+	
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = jls_alaska
+			prestige = 25
+			badboy = 5
+			USA_1 = {
+				add_core = JLS
+			}
+			6 = {
+				add_core = JLS
+			}
+			17 = {
+				add_core = JLS
+			}
+			16 = {
+				add_core = JLS
+			}
+			15 = {
+				add_core = JLS
+			}
+			13 = {
+				add_core = JLS
+			}
+			20 = {
+				add_core = JLS
+			}
+			21 = {
+				add_core = JLS
+			}
+			19 = {
+				add_core = JLS
+			}
+			14 = {
+				add_core = JLS
+			}
+
+			relation = {
+					who = ENG
+					value = -100
+			}
+			relation = {
+					who = RUS
+					value = -100
+			}
+
+		}
+	}
+
+	Claim_back_jalisco = {
+		potential = {
+			tag = MEX
+			NOT = { has_country_flag = mex_jls }
+		}
+		allow = {
+			war = no
+			OR = {
+				year = 1855
+				nationalism_n_imperialism = 1
+			}
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = mex_jls
+			prestige = 15
+			badboy = 5
+			MEX_2161 = {
+				add_core = MEX
+			}
+			relation = {
+					who = JLS
+					value = -100
+			}
+		}
+	}
+	New_gov_jls = {
+		potential = {
+			tag = JLS
+			NOT = { has_country_flag = new_gov_jls }
+		}
+		allow = {
+			war = no
+			state_n_government = 1
+			average_militancy = 4
+		}
+		effect = {
+			set_country_flag = new_gov_jls
+			country_event = 33124001
+		}
+	}
+	New_culture_jls = {
+		potential = {
+			tag = JLS
+			NOT = { has_country_flag = new_culture_jls }
+		}
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = new_culture_jls
+			country_event = 33124002
+		}
+	}
+
+}

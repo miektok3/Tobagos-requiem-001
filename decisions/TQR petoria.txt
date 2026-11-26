@@ -1,0 +1,42 @@
+political_decisions = {
+	Joe's_pool = {
+		potential = {
+			tag = PET
+			NOT = { has_country_flag = joepool }
+		}
+		allow = {
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = joepool
+			prestige = 15
+			badboy = 6
+			USA_243 = {
+				add_core = PET
+			}
+			relation = {
+					who = USA
+					value = -100
+			}
+		}
+	}
+	usa_petoria_corebug = {
+		potential = { 
+			tag = PET
+			NOT = { has_country_flag = uscorepet }
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = uscorepet
+			242 = {
+				remove_core = USA
+			}
+		}
+	ai_will_do = { factor = 1 }
+	}
+}

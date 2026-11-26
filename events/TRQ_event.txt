@@ -1,0 +1,144 @@
+country_event = {
+    id = 33124001
+    title = "Jalisco's national identity"
+    desc = "EVTDESC33124001"
+    is_triggered_only = yes
+    picture = jaliscoculture
+
+    option = {
+        name = "Jalisco is NOT Mexico"
+	primary_culture = jaliscan
+        remove_accepted_culture = mexican
+	add_country_modifier = {
+			name = cultural_resurgence
+			duration = 3650
+		}
+        any_pop = {
+            limit = {
+            has_pop_culture = mexican
+            }
+            consciousness = 6
+            militancy = 6
+        }
+        any_pop = {
+            limit = {
+            has_pop_culture = mexican
+            }
+            consciousness = 6
+            militancy = 6
+        }
+	MEX_2161 = { 
+		assimilate = yes 
+	}
+        ai_chance = {
+            factor = 50
+        }
+    }
+
+    option = {
+        name = "Mexicans and Jaliscans are brothers, not enemies"
+	add_country_modifier = {
+			name = national_confusion
+			duration = 3650
+		}
+        any_pop = {
+            limit = {
+                has_pop_culture = mexican
+            }
+            consciousness = -6
+            militancy = -6
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = jaliscan 
+            }
+            consciousness = 5
+            militancy = 5
+        }
+        ai_chance = {
+            factor = 40
+        }
+    }
+    option = {
+        name = "Jaliscan is a made up culture"
+	primary_culture = mexican
+        remove_accepted_culture = jaliscan
+        any_pop = {
+           MEX_2161 = { 
+		assimilate = yes 
+	}
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {
+    id = 33124002
+    title = "Jalisco's new government"
+    desc = "EVTDESC33124002"
+    is_triggered_only = yes
+    picture = jaliscoculture
+
+    option = {
+        name = "The iron fist shall keep ruling"
+	primary_culture = jaliscan
+        remove_accepted_culture = mexican
+	add_country_modifier = {
+			name = fanatic_army
+			duration = 3650
+		}        
+	add_country_modifier = {
+			name = silver_age
+			duration = 3650
+		}        
+        any_pop = {
+            consciousness = 5
+            militancy = 5
+        }
+        ai_chance = {
+            factor = 34
+        }
+    }
+
+    option = {
+        name = "A monarchy would surely legitimize our rule"
+	government = prussian_constitutionalism
+	political_reform = landed_voting
+	political_reform = harassment
+	relation = {
+		who = AUS
+		value = 150
+	}
+	relation = {
+		who = ENG
+		value = 150
+	}
+	relation = {
+		who = FRA
+		value = 150
+	}
+
+        any_pop = {
+            consciousness = -2
+            militancy = -2
+        }
+        ai_chance = {
+            factor = 33
+        }
+    }
+    option = {
+        name = "Jalisco, the land of the free"
+	government = democracy
+	political_reform = universal_weighted_voting
+	political_reform = non_secret_ballots
+        any_pop = {
+            consciousness = -6
+            militancy = -6
+        }
+        ai_chance = {
+            factor = 33
+        }
+    }
+}
+

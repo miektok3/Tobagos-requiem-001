@@ -98,6 +98,32 @@ political_decisions = {
 			
 		}
 	}
+	tob_lithuania = {
+		potential = {
+			tag = TOB
+			NOT = { has_country_flag = tob_lith }
+			has_country_flag = tob_latvia
+		}
+		allow = {
+			war = no
+			owns = 359
+			OR = {
+				prestige = 100
+				is_greater_power = yes
+			}
+		}
+		
+		effect = {
+			set_country_flag =  tob_lith
+			add_accepted_culture = lithuanian
+			badboy = 5
+			prestige = 20
+			RUS_360 = {
+				add_core = TOB
+			}			
+		}
+	}
+
 	tob_coast = {
 		potential = {
 			tag = TOB
@@ -149,34 +175,11 @@ political_decisions = {
 			set_country_flag =  tob_greater_antilles
 			badboy = 5
 			prestige = 20
-			2209 = {
-				add_core = TOB
-			}
-			2210 = {
+			SPA_2209 = {
 				add_core = TOB
 			}
 
-			2211 = {
-				add_core = TOB
-			}
-			2212 = {
-				add_core = TOB
-			}
-			44 = {
-				add_core = TOB
-			}
-
-			2213 = {
-				add_core = TOB
-			}
-			2215 = {
-				add_core = TOB
-			}
-			2216 = {
-				add_core = TOB
-			}
-
-			2214 = {
+			HAI_2213 = {
 				add_core = TOB
 			}
 			2222 = {
@@ -241,6 +244,7 @@ political_decisions = {
 		}
 		allow = {
 			war = no
+			owns = 2276
 			biologism = 1
 			}
 		

@@ -1,9 +1,10 @@
-owner = USA
-controller = USA
-add_core = USA
+owner = PET
+controller = PET
 add_core = NEN
+add_core = PET
 trade_goods = grain
-life_rating = 35
+
+life_rating = 35
 
 party_loyalty = {
 	ideology = conservative

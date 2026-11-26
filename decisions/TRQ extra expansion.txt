@@ -1,0 +1,430 @@
+political_decisions = {
+### PARAGUAY EXPANSION
+	prg_entrerios = {
+		potential = {
+			tag = PRG
+			NOT = { has_country_flag = prg_entrerios }
+		}
+		allow = {
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = prg_entrerios
+			prestige = 15
+			badboy = 6
+			ARG_2360 = {
+				add_core = PRG
+			}
+			relation = {
+					who = ARG
+					value = -100
+			}
+		}
+	}
+	prg_urg = {
+		potential = {
+			tag = PRG
+			NOT = { has_country_flag = prg_urg }
+			has_country_flag = prg_entrerios
+		}
+		allow = {
+			war = no
+			owns = 2360
+			owns = 2554
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = prg_urg
+			prestige = 15
+			badboy = 5
+			URU_2344 = {
+				add_core = PRG
+			}
+			relation = {
+					who = URU
+					value = -100
+			}
+		}
+	}
+	prg_rgs = {
+		potential = {
+			tag = PRG
+			NOT = { has_country_flag = prg_rgs }
+			has_country_flag = prg_urg
+		}
+		allow = {
+			owns = 2344
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = prg_rgs
+			prestige = 25
+			badboy = 6
+			BRZ_2467 = {
+				add_core = PRG
+			}
+			relation = {
+					who = RGS
+					value = -100
+			}
+		}
+	}
+	prg_chaco = {
+		potential = {
+			tag = PRG
+			NOT = { has_country_flag = prg_chaco }
+			has_country_flag = prg_entrerios
+		}
+		allow = {
+			war = no
+			owns = 2338
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = prg_chaco
+			prestige = 15
+			badboy = 10
+			2362 = {
+				add_core = PRG
+			}
+			2365 = {
+				add_core = PRG
+			}
+			2366 = {
+				add_core = PRG
+			}
+			2367 = {
+				add_core = PRG
+			}
+			2364 = {
+				add_core = PRG
+			}
+			2377 = {
+				add_core = PRG
+			}
+			2372 = {
+				add_core = PRG
+			}
+
+			relation = {
+					who = ARG
+					value = -100
+			}
+		}
+	}
+	prg_brz = {
+		potential = {
+			tag = PRG
+			NOT = { has_country_flag = prg_brz }
+			has_country_flag = prg_rgs
+		}
+		allow = {
+			owns = 2467
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = prg_brz
+			prestige = 35
+			badboy = 8
+			BRZ_2462 = {
+				add_core = PRG
+			}
+			BRZ_2461 = {
+				add_core = PRG
+			}
+			relation = {
+					who = BRZ
+					value = -100
+			}
+		}
+	}
+	prg_nam1 = {
+		potential = {
+			tag = PRG
+			NOT = { has_country_flag = prg_nam1 }
+			has_country_flag = prg_urg
+		}
+		allow = {
+			year = 1865
+			raider_group_doctrine = 1
+			owns = 2344
+			war = no
+			}
+		effect = {
+			set_country_flag = prg_nam1
+			prestige = 15
+			2083 = {
+				secede_province = PRG
+			}
+		}
+	}
+	prg_nam2 = {
+		potential = {
+			tag = PRG
+			NOT = { has_country_flag = prg_nam2 }
+			has_country_flag = prg_nam1
+		}
+		allow = {
+			blue_and_brown_water_schools = 1
+			owns = 2083
+			war = no
+			}
+		effect = {
+			set_country_flag = prg_nam2
+			prestige = 15
+			ENG_2083 = {
+				secede_province = PRG
+			}
+			ENG_2078 = {
+				secede_province = PRG
+			}
+		}
+	}
+
+### LITHUANIAN EXPANSION
+	lit_bye = {
+		picture = GDLit
+		potential = {
+			OR = {
+				tag = LIT
+				has_country_flag = tob_lith
+			}
+			NOT = { has_country_flag = lit_bye }
+		}
+		allow = {
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = lit_bye
+			prestige = 25
+			badboy = 10
+			RUS_718 = {
+				add_core = THIS
+			}
+			RUS_940 = {
+				add_core = THIS
+			}
+			RUS_947 = {
+				add_core = THIS
+			}
+			RUS_707 = {
+				add_core = THIS
+			}
+			relation = {
+					who = RUS
+					value = -100
+			}
+		}
+	}
+	lit_sudukr = {
+		picture = GDLit
+		potential = {
+			NOT = { has_country_flag = lit_sudukr }
+			has_country_flag = lit_bye
+		}
+		allow = {
+			owns = 718
+			owns = 948
+			owns = 939
+			owns = 936
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = lit_sudukr
+			prestige = 25
+			badboy = 15
+			RUS_958 = {
+				add_core = THIS
+			}
+			RUS_959 = {
+				add_core = THIS
+			}
+			RUS_968 = {
+				add_core = THIS
+			}
+			RUS_955 = {
+				add_core = THIS
+			}
+			relation = {
+					who = RUS
+					value = -100
+			}
+		}
+	}
+	lit_lat = {
+		picture = form_baltic_states
+		potential = {
+			NOT = { has_country_flag = lit_lat }
+			has_country_flag = lit_bye
+		}
+		allow = {
+			war = no
+			citizenship_policy = full_citizenship
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = lit_lat
+			add_accepted_culture = latvian
+			badboy = 5
+			RUS_354 = {
+				add_core = THIS
+			}
+			relation = {
+					who = RUS
+					value = -100
+			}
+		}
+	}
+	lit_est = {
+		potential = {
+			NOT = { has_country_flag = lit_est }
+			has_country_flag = lit_lat
+		}
+		allow = {
+			war = no
+			citizenship_policy = full_citizenship 
+		}
+		effect = {
+			set_country_flag = lit_est
+			add_accepted_culture = estonian
+			badboy = 5
+			RUS_349 = {
+				add_core = THIS
+			}
+			relation = {
+					who = RUS
+					value = -100
+			}
+		}
+	}
+	lit_bye_cul = {
+		potential = {
+			NOT = { has_country_flag = lit_bye_cul }
+			has_country_flag = lit_lat
+		}
+		allow = {
+			war = no
+			citizenship_policy = full_citizenship 
+			biologism = 1
+		}
+		effect = {
+			set_country_flag = lit_bye_cul
+			add_accepted_culture = byelorussian
+			prestige = -20
+		}
+	}
+	lit_ukr_cul = {
+		potential = {
+			NOT = { has_country_flag = lit_ukr_cul }
+			has_country_flag = lit_bye_cul
+			has_country_flag = lit_rus
+
+		}
+		allow = {
+			war = no
+			citizenship_policy = full_citizenship 
+			mass_politics = 1
+		}
+		effect = {
+			set_country_flag = lit_ukr_cul
+			add_accepted_culture = ukrainian
+			prestige = -20
+		}
+	}
+
+	lit_norukr = {
+		picture = GDLit
+		potential = {
+			NOT = { has_country_flag = lit_norukr }
+			has_country_flag = lit_sudukr
+		}
+		allow = {
+			owns = 956
+			owns = 958
+			owns = 968
+			owns = 961
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = lit_norukr
+			prestige = 25
+			badboy = 6
+			963 = { add_core = THIS }
+			962 = { add_core = THIS }
+			977 = { add_core = THIS }
+			1017 = { add_core = THIS }
+
+			relation = {
+					who = RUS
+					value = -100
+			}
+		}
+	}
+	lit_rus = {
+		picture = GDLit
+		potential = {
+			NOT = { has_country_flag = lit_rus }
+			has_country_flag = lit_norukr
+		}
+		allow = {
+			owns = 1017
+			owns = 977
+			owns = 962
+			owns = 963
+			war = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+		}
+		effect = {
+			set_country_flag = lit_rus
+			prestige = 25
+			badboy = 15
+			943 = { add_core = THIS }
+			999 = { add_core = THIS }
+			1016 = { add_core = THIS }
+			1015 = { add_core = THIS }
+			1010 = { add_core = THIS }
+			1014 = { add_core = THIS }
+			1007 = { add_core = THIS }
+
+
+			relation = {
+					who = RUS
+					value = -161
+			}
+		}
+	}
+
+}

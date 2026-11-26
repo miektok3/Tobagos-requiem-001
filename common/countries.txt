@@ -5,6 +5,8 @@ REB 	= 	"countries/rebels.txt"
 
 #Tobago's requiem
 TOB		=	"countries/Tobago.txt"
+PET		= 	"countries/Petoria.txt"
+JLS		=	"countries/Jalisco.txt"
 
 ### NEW NATIONS MOD ###
 
